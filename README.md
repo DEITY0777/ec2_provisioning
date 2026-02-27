@@ -1,40 +1,39 @@
 EC2 Provisioning Automation Script
 
 A Bash script to automate the creation of an AWS EC2 instance using AWS CLI.
-
 This project demonstrates basic infrastructure automation with validation, idempotency checks, and logging.
 
-Features
+Features:
 
-Checks and installs AWS CLI if missing
+- Checks and installs AWS CLI if missing
 
-Validates AWS credentials
+- Validates AWS credentials
 
-Prevents duplicate instance creation (based on Name tag)
+- Prevents duplicate instance creation (based on Name tag)
 
-Waits until instance reaches running state
+- Waits until instance reaches running state
 
-Logs all major operations to a log file
+- Logs all major operations to a log file
 
-Uses safe Bash practices (set -euo pipefail)
+- Uses safe Bash practices (set -euo pipefail)
 
-Requirements
+Requirements:
 
-Linux (Tested on Ubuntu EC2)
+- Linux (Tested on Ubuntu EC2)
 
-AWS account
+- AWS account
 
-Configured AWS credentials (aws configure)
+- Configured AWS credentials (aws configure)
 
 Required:
 
-AMI ID
+- AMI ID
 
-Key Pair
+- Key Pair
 
-Subnet ID
+- Subnet ID
 
-Security Group ID
+- Security Group ID
 
 Run the script:
 
