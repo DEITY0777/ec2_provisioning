@@ -1,0 +1,17 @@
+# Logs
+*.log
+
+# AWS CLI installation artifacts
+aws/
+awscliv2.zip
+
+# Instance state tracking (if you add later)
+.instance_id
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
